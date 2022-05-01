@@ -16,6 +16,7 @@ import {
   Box,
   Badge,
   Select,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import { DatePicker } from '@orange_digital/chakra-datepicker';
 
@@ -26,7 +27,7 @@ export default function Content2 ({data}) {
         <Heading my={5} size='lg' style={{fontFamily: 'IBM Plex Sans KR'}}>레븐 뱅온/뱅종 기록</Heading>
         <Heading mb={2} size="xs" style={{fontFamily: 'IBM Plex Sans KR', fontWeight: 400}}>유의사항 : 실제 방송시간과 최대 10~20분 가량 오차가 있을 수 있습니다.</Heading>
         <Heading mb={5} size="xs" style={{fontFamily: 'IBM Plex Sans KR', fontWeight: 400}}>사용방법 : 시작일시/종료일시를 변경하면 자동으로 검색결과가 로딩됩니다.</Heading>
-        <Flex mb={3}>
+        <SimpleGrid columns={3} mb={3}>
           <FormControl p={3}>
             <FormLabel htmlFor='start-datetime'>시작일시</FormLabel>
             <Input id='start-datetime' type='date' value={data.startDate} onChange={(value) => {
@@ -57,7 +58,7 @@ export default function Content2 ({data}) {
               <option value='kimc6h12o6'>포도당</option>
             </Select>
           </FormControl>
-        </Flex>
+        </SimpleGrid>
         {
           data.isLoading && (
             <Box style={{textAlign: 'center'}}>
