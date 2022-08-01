@@ -10,7 +10,7 @@
     "@orange_digital/chakra-datepicker": "1.0.3",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.3.0",
-    "@testing-library/user-event": "14.1.1",
+    "@testing-library/user-event": "14.3.0",
     "axios": "0.27.2",
     "framer-motion": "6.5.1",
     "moment": "2.29.4",
