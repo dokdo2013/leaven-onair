@@ -2060,7 +2060,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@orange_digital/chakra-datepicker@^1.0.3":
+"@orange_digital/chakra-datepicker@1.0.3":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@orange_digital/chakra-datepicker/-/chakra-datepicker-1.0.3.tgz"
   integrity sha512-dzfoJlpZVmW8JcFmVyVMkqfpnTI/LpFjA/+Wx+kl1l/EPi/g1gKvekiCWKIOzY8cUIbAUMhmQEcNDSvm9ITQyg==
@@ -7831,7 +7831,7 @@ react-clientside-effect@^1.2.5:
   dependencies:
     "@babel/runtime" "^7.12.13"
 
-react-datepicker@^4.7.0:
+react-datepicker@4.8.0:
   version "4.8.0"
   resolved "https://registry.npmjs.org/react-datepicker/-/react-datepicker-4.8.0.tgz"
   integrity sha512-u69zXGHMpxAa4LeYR83vucQoUCJQ6m/WBsSxmUMu/M8ahTSVMMyiyQzauHgZA2NUr9y0FUgOAix71hGYUb6tvg==
