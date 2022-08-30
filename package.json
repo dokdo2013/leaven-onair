@@ -5,8 +5,8 @@
   "dependencies": {
     "@chakra-ui/icons": "1.1.7",
     "@chakra-ui/react": "1.8.8",
-    "@emotion/react": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
     "@orange_digital/chakra-datepicker": "1.0.3",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.3.0",
